@@ -9,7 +9,8 @@ Ainsi, l'AI prend des décisions en fonctions des états (décisions) précédan
 
 # UML des classes 
 
-![UML-des-classes](https://github.com/nBeeckmans/unity-ai-prototype/blob/master/UML-AI.svg?raw=true)
+![UML-des-classes](https://github.com/nBeeckmans/unity-ai-prototype/blob/master/UML-AI.svg)
 
 # Schémas des décisions 
 
+![Schémas des décisions](https://github.com/nBeeckmans/unity-ai-prototype/blob/master/graphviz.svg)
