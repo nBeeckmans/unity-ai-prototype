@@ -21,6 +21,7 @@ public class AwakeState : State
     }
     public override State FindNextState()
     {
+        // pas de return this montre que c'est pas un etat terminal 
         if ( IsFar())
         {
             return new AngryState(); 
@@ -43,11 +44,12 @@ public class AwakeState : State
 
     protected bool HasToUpdateTime()
     {
-        return _timeWhenWokenUp + _cooldown < Time.time;
+        return IsTired();
     }
 
     public override void GetBehavior()
     {
+        // Pas un etat terminal donc devrait jamais apparaitre !
        Debug.Log("awake!"); 
     }
 }
